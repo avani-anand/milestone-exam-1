@@ -1,0 +1,90 @@
+body{
+     max-width: 100vh;
+     margin: auto;
+    display: flex;
+    color: gray;
+    /* flex-direction: column; */
+    /* align-content: center; */
+}
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    align-content: space-around;
+
+}
+
+.logo{
+    display: flex;
+
+
+    /* gap: 8px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar>ul{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    /* gap: 35px; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* align-content: space-around; */
+    /* align-items: center; */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
