@@ -1,0 +1,240 @@
+body{
+    flex-wrap: wrap;
+ 
+     max-width: 1400px;
+     max-height: 100%;
+     margin: auto;
+    /* display: flex; */
+    color: gray;
+    font: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: space-around; */
+    /* gap: 375px; */
+    justify-items: start;
+
+}
+
+.logo{
+    display: flex;
+}
+.logo>p{
+    color: black;
+    font-weight: 800;
+}
+.item{
+    display: flex;
+    gap: 25px;
+    
+}
+.item>li:hover{color: orangered; cursor: pointer;}
+.btn{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 400;
+    font-size: medium;
+    
+}
+
+
+
+.navbar>ul{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.userprofile{
+    display: none;
+}
+
+.menuicon{
+    display: none;
+}
+
+
+
+
+.section-1{
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+   
+    /* flex-direction: row; */
+}
+
+.pa{
+    font-size:80px;
+    font-weight: 600;
+    color: black;
+    line-height: 18px;
+    /* word-spacing: 3px; */
+    letter-spacing: 2px;
+}
+
+.hr{
+    border-left: 2px solid black;
+    line-height: 12px;
+}
+
+.hr>p{
+    font-size: 20px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    color: rgb(49, 46, 46);
+}
+
+
+.button-1{
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.button-2{
+    margin-left: 4px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+
+}
+.arrow{
+    float:right;
+}
+
+
+
+
+.image{
+    /* background-color: black; */
+  
+    background-image:url('./E-guru assests/main-image.png'), url('./E-guru assests/main-image-bg.png' ) 
+    ;
+    
+    background-size:190px 250px,300px 290px;
+    background-color:  ;
+    background-position: bottom, bottom ;
+    background-repeat: no-repeat,no-repeat;
+   
+    
+    width: 280px;
+    height: 350px;
+
+}
+
+
+
+
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    background-color: rgb(8, 8, 50);
+    margin: auto;
+    gap: 20px;
+    padding: 70px;
+    /* text-align: center; */
+
+}
+
+.grid>div>h2{
+color: white;
+}
+.grid p{
+    font-size: smaller;
+}
+.grid2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.grid2 h4{
+    color: white;
+}
+
+.grid2 .im1{
+    background-color: rgb(19, 231, 203);
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+}
+.grid2 .im2{
+    background-color:rgb(211, 81, 34);
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+}
+.grid2 .im3{
+    background-color: rgb(19, 125, 231);
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+    /* background-color: red; */
+    .section-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .grid2{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-1 h1{
+        font-size: x-large;
+    }
+    .section-1 p{
+        font-size: large;
+    }
+   
+   
+    .navbar li{
+        display: none;
+    }
+    .btn{display: none;}
+    .userprofile{
+        display: block;
+        width: 30px;
+    }
+    .menuicon{
+        display: block;
+    }
+
+
+
+    }
+    }
+
+
+
+
+
+
