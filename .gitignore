@@ -1,0 +1,10 @@
+README.md
+.png,.jpg
+/assests
+
+package.json
+package-lock.json
+tailwind.md
+tailwind.config.js
+.gitattributes
+node_modules
