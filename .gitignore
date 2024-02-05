@@ -1,6 +1,13 @@
 README.md
-.png,.jpg
-/assests
+*.png
+*.jpg
+
+
+assests/
+bike_landing_page assets/
+NFT_PAGE assets
+
+
 
 package.json
 package-lock.json
